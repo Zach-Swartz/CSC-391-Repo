@@ -1,6 +1,7 @@
 Project 1 — Image Formation (CSC-391)
 
 Overview
+Note that this file is AI generated, since this is technically not required. If the below does not provide enough information on how to set up the program, then let me know and I'll help out.
 
 This folder contains three parts for Project 1: noise analysis (Part 1), camera comparison (Part 2), and a real-time filtering demo with benchmarking (Part 3). Each part includes scripts, input images, and generated results (CSVs and PNGs).
 
