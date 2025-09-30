@@ -23,7 +23,7 @@ def horizontal_fov(focal_mm, sensor_width_mm):
 # Read a raw DNG file and return the raw image as a float32 numpy array
 def read_raw(path):
     with rawpy.imread(str(path)) as raw:
-        return raw.raw_image.copy().astype(np.float32)  # raw image array (unprocessed)
+        return raw.raw_image.copy().astype(np.float32)  # raw image array
 
 
 # Extract a square center patch of size `patch_size` from image `img`
@@ -98,6 +98,9 @@ def analyze_file(path, patch_size):
     return arr, patch, mu, sigma
 
 
+# Note: I had AI do this part, since I could not find the specific pixel values
+# and had to use the grids on photoshop. The below creates a general grid of the image
+# and selects the appropriate region.
 # Map Photoshop grid cell ranges to a pixel bounding box and compute a patch inside it
 def bbox_from_photoshop_grid(img_shape, col_min, col_max, row_min, row_max, ncols=18, nrows=24):
     """
@@ -124,10 +127,6 @@ def bbox_from_photoshop_grid(img_shape, col_min, col_max, row_min, row_max, ncol
 
 
 def patch_within_bbox(img, bbox, desired_patch):
-    """Return a square patch (numpy array) of size desired_patch centered inside bbox.
-    Ensures the patch lies fully within the bbox and within image bounds.
-    bbox is (x0,y0,x1,y1) with x1,y1 exclusive.
-    """
     x0, y0, x1, y1 = bbox
     h, w = img.shape
     bbox_w = x1 - x0
@@ -158,7 +157,6 @@ def main():
                    help='tele focal length (mm)')
     p.add_argument('--tele-sensor-w', type=float,
                    default=None, help='tele sensor width (mm)')
-    # exposure params (defaults are the values you provided)
     p.add_argument('--main-shutter', type=float, default=1.0 /
                    40.0, help='main shutter seconds')
     p.add_argument('--main-aperture', type=float,
