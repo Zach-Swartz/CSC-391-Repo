@@ -1,9 +1,3 @@
-"""Analyze DNG images placed in project_1/part_1/images.
-
-Usage: run this file from anywhere; it locates the images directory
-relative to its own file location.
-"""
-
 import argparse
 import csv
 import os
@@ -14,24 +8,31 @@ import numpy as np
 import matplotlib.pyplot as plt
 import rawpy
 
-BASE_DIR = Path(__file__).resolve().parent  # project root directory
-IMG_DIR = BASE_DIR / "images"  # folder containing DNG images
-RESULTS_DIR = BASE_DIR / "results"  # folder for all outputs
-FIG_DIR = RESULTS_DIR / "figs"  # folder for figure PNGs
+
+# BASE_DIR: folder containing this script
+BASE_DIR = Path(__file__).resolve().parent  # BASE_DIR: project part_1 folder
+# IMG_DIR: folder with DNG input files
+IMG_DIR = BASE_DIR / "images"  # IMG_DIR: input images directory
+# RESULTS_DIR: output folder for CSVs/figs
+RESULTS_DIR = BASE_DIR / "results"  # RESULTS_DIR: outputs directory
+# FIG_DIR: subfolder for PNG figures
+FIG_DIR = RESULTS_DIR / "figs"  # FIG_DIR: figures directory
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 
 
+# analyze_raw_image: read DNG file and return center-patch mean and std
 def analyze_raw_image(file_path, patch_size=100, save_fig=True):
-    """Read a DNG and return the center-patch mean and std."""
+    # print filename being processed
     print(f"\nFile: {os.path.basename(file_path)}")
     try:
+        # load raw DNG into float32 numpy array
         with rawpy.imread(file_path) as raw:
-            raw_image = raw.raw_image.copy().astype(
-                np.float32)  # raw sensor image as float32
+            # raw_image: float32 raw sensor image
+            raw_image = raw.raw_image.copy().astype(np.float32)
     except Exception as e:
         try:
-            fsize = os.path.getsize(file_path)
+            fsize = os.path.getsize(file_path)  # fsize: file size in bytes
         except Exception:
             fsize = "unknown"
         print(f"Failed to read raw file: {file_path}")

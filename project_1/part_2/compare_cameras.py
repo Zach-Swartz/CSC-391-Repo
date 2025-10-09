@@ -7,35 +7,37 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import rawpy
 
-BASE = Path(__file__).resolve().parent
-IMG_DIR = BASE / 'images'  # directory containing DNG images
-RESULTS = BASE / 'results'  # directory to write CSV and summary outputs
-FIGS = RESULTS / 'figs'  # subdirectory to save PNG figures
+BASE = Path(__file__).resolve().parent  # BASE: this script's directory
+IMG_DIR = BASE / 'images'  # IMG_DIR: input DNG images
+RESULTS = BASE / 'results'  # RESULTS: outputs directory for CSV/summary
+FIGS = RESULTS / 'figs'  # FIGS: subfolder to save PNG figures
 RESULTS.mkdir(parents=True, exist_ok=True)
 FIGS.mkdir(parents=True, exist_ok=True)
 
 
 # Compute horizontal field-of-view (degrees) from focal length and sensor width
 def horizontal_fov(focal_mm, sensor_width_mm):
+    # compute horizontal field-of-view in degrees
     return 2.0 * np.degrees(np.arctan(sensor_width_mm / (2.0 * focal_mm)))
 
 
 # Read a raw DNG file and return the raw image as a float32 numpy array
 def read_raw(path):
+    # read DNG and return raw sensor image as float32
     with rawpy.imread(str(path)) as raw:
         return raw.raw_image.copy().astype(np.float32)  # raw image array
 
 
 # Extract a square center patch of size `patch_size` from image `img`
 def center_patch(img, patch_size):
-    h, w = img.shape  # image height and width
-    cx, cy = w // 2, h // 2  # center coordinates (x, y)
-    half = patch_size // 2  # half-size of the patch
-    x0 = max(0, cx - half)  # left coordinate of patch
-    y0 = max(0, cy - half)  # top coordinate of patch
-    x1 = min(w, x0 + patch_size)  # right coordinate (exclusive)
-    y1 = min(h, y0 + patch_size)  # bottom coordinate (exclusive)
-    return img[y0:y1, x0:x1]  # return cropped patch
+    h, w = img.shape  # h,w: image height and width
+    cx, cy = w // 2, h // 2  # cx,cy: center coordinates
+    half = patch_size // 2  # half: half-size of square patch
+    x0 = max(0, cx - half)  # x0: left coordinate
+    y0 = max(0, cy - half)  # y0: top coordinate
+    x1 = min(w, x0 + patch_size)  # x1: right coordinate (exclusive)
+    y1 = min(h, y0 + patch_size)  # y1: bottom coordinate (exclusive)
+    return img[y0:y1, x0:x1]  # return: cropped center patch
 
 
 # Save a patch as a grayscale PNG after normalizing its range to 0-255

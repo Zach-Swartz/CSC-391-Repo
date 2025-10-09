@@ -1,27 +1,31 @@
-import argparse
-import cv2
-import numpy as np
+import argparse  # argparse: CLI parser
+import cv2  # cv2: OpenCV bindings
+import numpy as np  # np: numeric arrays
 
 
 # Apply convolution to a single-channel image using a manual pixel loop
 def apply_convolution(image: np.ndarray, kernel: np.ndarray) -> np.ndarray:
+    # kh,kw: kernel height and width
     kh, kw = kernel.shape  # kernel height/width
 
+    # h,w: image height and width
     h, w = image.shape  # image height and width
-    pad = kh // 2  # padding size
+    pad = kh // 2  # pad: padding size to keep output same size
 
     padded = np.pad(image.astype(np.float32), ((pad, pad),
-                    (pad, pad)), mode='edge')  # padded image
-    out = np.zeros_like(image, dtype=np.float32)  # accumulator
-    k = np.flipud(np.fliplr(kernel)).astype(np.float32)  # flipped kernel
+                    (pad, pad)), mode='edge')  # padded: padded image
+    out = np.zeros_like(image, dtype=np.float32)  # out: accumulator array
+    k = np.flipud(np.fliplr(kernel)).astype(
+        np.float32)  # k: flipped kernel for convolution
 
     for y in range(h):
         for x in range(w):
-            region = padded[y:y + kh, x:x + kw]  # region under kernel
+            # region: image patch under kernel
+            region = padded[y:y + kh, x:x + kw]
             out[y, x] = np.sum(region * k)
 
-    out = np.clip(out, 0, 255)  # clamp to [0,255]
-    return out.astype(np.uint8)
+    out = np.clip(out, 0, 255)  # clamp output to [0,255]
+    return out.astype(np.uint8)  # return: uint8 image
 
 
 # Create a side-by-side image for display
