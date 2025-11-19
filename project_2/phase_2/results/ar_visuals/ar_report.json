@@ -1,0 +1,170 @@
+[
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_1.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_1.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_1.jpg\nReprojection error (mean px): 13.131, max px: 17.142"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_10.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_10.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_10.jpg\nReprojection error (mean px): 2.380, max px: 6.998"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_11.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_11.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_11.jpg\nReprojection error (mean px): 1.139, max px: 3.892"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_12.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_12.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_12.jpg\nReprojection error (mean px): 0.980, max px: 3.742"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_13.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_13.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_13.jpg\nReprojection error (mean px): 0.902, max px: 3.277"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_14.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_14.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_14.jpg\nReprojection error (mean px): 1.556, max px: 5.771"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_15.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_15.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_15.jpg\nReprojection error (mean px): 1.318, max px: 3.001"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_16.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_16.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_16.jpg\nReprojection error (mean px): 1.643, max px: 4.885"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_17.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_17.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_17.jpg\nReprojection error (mean px): 2.888, max px: 6.985"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_18.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_18.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_18.jpg\nReprojection error (mean px): 0.926, max px: 2.166"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_19.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_19.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_19.jpg\nReprojection error (mean px): 0.770, max px: 2.636"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_2.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_2.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_2.jpg\nReprojection error (mean px): 1.626, max px: 7.422"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_20.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_20.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_20.jpg\nReprojection error (mean px): 4.335, max px: 11.615"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_21.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_21.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_21.jpg\nReprojection error (mean px): 0.852, max px: 2.567"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_3.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_3.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_3.jpg\nReprojection error (mean px): 1.132, max px: 3.048"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_4.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_4.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_4.jpg\nReprojection error (mean px): 0.835, max px: 3.561"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_5.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_5.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_5.jpg\nReprojection error (mean px): 1.258, max px: 4.571"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_6.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_6.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_6.jpg\nReprojection error (mean px): 1.690, max px: 4.301"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_7.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_7.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_7.jpg\nReprojection error (mean px): 13.563, max px: 20.674"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_8.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_8.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_8.jpg\nReprojection error (mean px): 1.346, max px: 3.274"
+  },
+  {
+    "image": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_9.jpg",
+    "out": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_9.jpg",
+    "status": "ok",
+    "mean_px": null,
+    "max_px": null,
+    "raw_output": "Wrote AR visual to c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\ar_visuals\\ar_overlay_calibrated_chessboard_9.jpg\nReprojection error (mean px): 2.717, max px: 9.754"
+  }
+]

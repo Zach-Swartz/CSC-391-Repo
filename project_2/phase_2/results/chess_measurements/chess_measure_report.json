@@ -1,0 +1,282 @@
+[
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_1.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_10.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c1_vs_c10.npz",
+    "rms_m": 0.0033615983556956053,
+    "max_err_m": 0.00839352235198021,
+    "dims_m": {
+      "dx": 0.15077148377895355,
+      "dy": 0.12653054296970367,
+      "dz": 0.0148171316832304
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_10.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_11.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c10_vs_c11.npz",
+    "rms_m": 0.0022409609518945217,
+    "max_err_m": 0.0061803716234862804,
+    "dims_m": {
+      "dx": 0.15210546553134918,
+      "dy": 0.1261669099330902,
+      "dz": 0.009621948003768921
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_11.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_12.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c11_vs_c12.npz",
+    "rms_m": 0.0012239654315635562,
+    "max_err_m": 0.004064352251589298,
+    "dims_m": {
+      "dx": 0.15116305649280548,
+      "dy": 0.12671403586864471,
+      "dz": 0.0056206402368843555
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_12.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_13.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c12_vs_c13.npz",
+    "rms_m": 0.0009410534403286874,
+    "max_err_m": 0.002285968279466033,
+    "dims_m": {
+      "dx": 0.15137344598770142,
+      "dy": 0.1272735893726349,
+      "dz": 0.003837570548057556
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_13.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_14.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c13_vs_c14.npz",
+    "rms_m": 0.002109562512487173,
+    "max_err_m": 0.007226063869893551,
+    "dims_m": {
+      "dx": 0.15200738608837128,
+      "dy": 0.1252407729625702,
+      "dz": 0.008739582262933254
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_14.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_15.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c14_vs_c15.npz",
+    "rms_m": 0.005709930323064327,
+    "max_err_m": 0.02016325108706951,
+    "dims_m": {
+      "dx": 0.15591742098331451,
+      "dy": 0.12659041583538055,
+      "dz": 0.03299590200185776
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_15.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_16.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c15_vs_c16.npz",
+    "rms_m": 0.0028061887715011835,
+    "max_err_m": 0.007515680510550737,
+    "dims_m": {
+      "dx": 0.15383337438106537,
+      "dy": 0.12813708186149597,
+      "dz": 0.01352665200829506
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_16.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_17.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c16_vs_c17.npz",
+    "rms_m": 0.003294150112196803,
+    "max_err_m": 0.007775858510285616,
+    "dims_m": {
+      "dx": 0.15282662212848663,
+      "dy": 0.128065288066864,
+      "dz": 0.011491518467664719
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_17.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_18.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c17_vs_c18.npz",
+    "rms_m": 0.0041785757057368755,
+    "max_err_m": 0.011477493681013584,
+    "dims_m": {
+      "dx": 0.15298227965831757,
+      "dy": 0.13231796026229858,
+      "dz": 0.01472504436969757
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_18.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_19.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c18_vs_c19.npz",
+    "rms_m": 0.0036787036806344986,
+    "max_err_m": 0.009781978093087673,
+    "dims_m": {
+      "dx": 0.1499176323413849,
+      "dy": 0.13117703795433044,
+      "dz": 0.014806055463850498
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_19.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_2.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c19_vs_c2.npz",
+    "rms_m": 0.0022650454193353653,
+    "max_err_m": 0.006151963025331497,
+    "dims_m": {
+      "dx": 0.15232181549072266,
+      "dy": 0.12890323996543884,
+      "dz": 0.009182159788906574
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_2.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_20.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c2_vs_c20.npz",
+    "rms_m": 0.04130733013153076,
+    "max_err_m": 0.25128209590911865,
+    "dims_m": {
+      "dx": 0.15464527904987335,
+      "dy": 0.1268746554851532,
+      "dz": 0.20783928036689758
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_20.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_21.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c20_vs_c21.npz",
+    "rms_m": 0.0037042289040982723,
+    "max_err_m": 0.011821160092949867,
+    "dims_m": {
+      "dx": 0.15307319164276123,
+      "dy": 0.12560701370239258,
+      "dz": 0.020024126395583153
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_21.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_3.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c21_vs_c3.npz",
+    "rms_m": 0.0015752756735309958,
+    "max_err_m": 0.004806827753782272,
+    "dims_m": {
+      "dx": 0.1525958627462387,
+      "dy": 0.12623964250087738,
+      "dz": 0.006188355851918459
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_3.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_4.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c3_vs_c4.npz",
+    "rms_m": 0.0017970622284337878,
+    "max_err_m": 0.004111006855964661,
+    "dims_m": {
+      "dx": 0.1517103612422943,
+      "dy": 0.1258179247379303,
+      "dz": 0.006201268173754215
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_4.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_5.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c4_vs_c5.npz",
+    "rms_m": 0.0018053664825856686,
+    "max_err_m": 0.004336006473749876,
+    "dims_m": {
+      "dx": 0.15102118253707886,
+      "dy": 0.12568092346191406,
+      "dz": 0.007961655966937542
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_5.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_6.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c5_vs_c6.npz",
+    "rms_m": 0.0031212579924613237,
+    "max_err_m": 0.006557871587574482,
+    "dims_m": {
+      "dx": 0.15259423851966858,
+      "dy": 0.12707580626010895,
+      "dz": 0.012160718441009521
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_6.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_7.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c6_vs_c7.npz",
+    "rms_m": 0.002809359924867749,
+    "max_err_m": 0.006110405083745718,
+    "dims_m": {
+      "dx": 0.15216337144374847,
+      "dy": 0.12941327691078186,
+      "dz": 0.010544287972152233
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_7.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_8.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c7_vs_c8.npz",
+    "rms_m": 0.0017036893405020237,
+    "max_err_m": 0.005611680448055267,
+    "dims_m": {
+      "dx": 0.15145748853683472,
+      "dy": 0.12545204162597656,
+      "dz": 0.008621049113571644
+    }
+  },
+  {
+    "img1": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_8.jpg",
+    "img2": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_1\\corner_images\\calibrated_chessboard_9.jpg",
+    "found1": true,
+    "found2": true,
+    "npz": "c:\\Users\\zswar\\OneDrive\\Desktop\\CSC 391 Repo\\project_2\\phase_2\\results\\chess_measurements\\points\ch_c8_vs_c9.npz",
+    "rms_m": 0.0022787677589803934,
+    "max_err_m": 0.006150887347757816,
+    "dims_m": {
+      "dx": 0.15144507586956024,
+      "dy": 0.12634533643722534,
+      "dz": 0.010390009731054306
+    }
+  }
+]
