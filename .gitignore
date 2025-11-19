@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Results and large outputs (keep small examples only)
+project_2/phase_2/results/
+project_2/phase_1/results/
+
+# Sample large data
+**/images/
+*.mp4
+*.mov
+*.avi
+
+# Numpy archives and point clouds (except sample_data)
+*.npz
+*.ply
+
+# Logs
+*.log
+
+# OneDrive temp files
+~$*
+
+# Ignore local settings
+.local_settings.json
