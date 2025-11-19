@@ -74,3 +74,26 @@ How to Run
 	python image_formation/lens_aperture_params.py
 	python image_formation/sampling_quantization.py
 	python image_formation/error_noise_analysis.py
+
+Quick-start for Phase 1/Phase 2 smoke test
+---------------------------------------
+1) Create and activate a virtualenv (PowerShell):
+
+   python -m venv .venv; .venv\Scripts\Activate.ps1
+   pip install -r project_2/requirements.txt
+
+2) Generate small sample data for smoke tests:
+
+   python project_2/phase_2/tools/generate_sample_data.py
+
+   This writes sample calibration and a few tiny chessboard images to
+   `project_2/phase_1/sample_data/`.
+
+3) Run a quick syntax check of Phase 2 scripts:
+
+   python -m py_compile project_2/phase_2/phase2_feature_pose.py
+   python -m py_compile project_2/phase_2/relative_pose.py
+
+4) Run the unit smoke test (requires pytest):
+
+   pytest -q project_2/tests
