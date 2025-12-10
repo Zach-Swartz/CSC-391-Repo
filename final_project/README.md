@@ -132,21 +132,3 @@ python main.py -i input.jpg -o output.png -f solarize posterize
 # Pixelated art
 python main.py -i input.jpg -o output.png -f pixelate posterize
 ```
-
-## Project Structure
-```
-final_project/
-├── main.py                    # CLI application entry point
-├── artistic_filters.py        # 27 artistic filter implementations
-├── segmentation_engine.py     # GrabCut subject extraction
-├── mask_processor.py          # Morphological mask refinement
-├── image_compositor.py        # Porter-Duff alpha compositing
-└── sample_inputs/             # Example images
-```
-
-## Architecture
-1. **Input Handler** - Loads image from file
-2. **Segmentation Engine** - Extracts subject using GrabCut (Markov Random Fields + GMM)
-3. **Mask Processor** - Refines mask with morphological operations
-4. **Artistic Filters** - Applies 27 different artistic effects
-5. **Image Compositor** - Blends results using Porter-Duff compositing
