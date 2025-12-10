@@ -1,0 +1,13 @@
+# Test and demo scripts
+demo_setup.py
+test_all_filters.py
+explore_all_samples.py
+
+# Generated outputs
+filtered_outputs/
+mask_visualizations/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
