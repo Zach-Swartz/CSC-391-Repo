@@ -1,0 +1,962 @@
+[
+  {
+    "img1": "calibrated_chessboard_1.jpg",
+    "img2": "calibrated_chessboard_10.jpg",
+    "matches": 18,
+    "homography_inliers": 7,
+    "E_found": true,
+    "R": [
+      [
+        0.24807174353842568,
+        -0.7577238183151972,
+        -0.6035851433026193
+      ],
+      [
+        -0.945438496456914,
+        -0.05352949416392368,
+        -0.32137305841007396
+      ],
+      [
+        0.211202413516266,
+        0.6503762052938221,
+        -0.7296604224654865
+      ]
+    ],
+    "t": [
+      [
+        0.5276730472062438
+      ],
+      [
+        0.2715091432711828
+      ],
+      [
+        0.804887532747418
+      ]
+    ],
+    "essential_inliers": 12,
+    "triangulation_candidate_count": 12,
+    "point_cloud": "points_01_calibrated_chessboard_1_vs_calibrated_chessboard_10.ply",
+    "triangulation_npz": "points\p01_c1_vs_c10.npz",
+    "scale": 0.13384101333085957,
+    "triangulation_metric_npz": "points\p01_c1_vs_c10.npz",
+    "point_cloud_metric": "points_01_calibrated_chessboard_1_vs_calibrated_chessboard_10_metric.ply",
+    "dimensions_m": {
+      "dx_m": 0.05457691848278046,
+      "dy_m": 0.0264578927308321,
+      "dz_m": 0.12935517728328705
+    },
+    "match_vis": "match_visuals\\matches_01_calibrated_chessboard_1_vs_calibrated_chessboard_10.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_10.jpg",
+    "img2": "calibrated_chessboard_11.jpg",
+    "matches": 40,
+    "homography_inliers": 20,
+    "E_found": true,
+    "R": [
+      [
+        0.9999995213063372,
+        0.00027620329302079083,
+        -0.0009386686515088782
+      ],
+      [
+        -0.00027663770249901354,
+        0.9999998546924997,
+        -0.0004626948896061245
+      ],
+      [
+        0.0009385407172614324,
+        0.00046295433925605534,
+        0.9999994524071514
+      ]
+    ],
+    "t": [
+      [
+        0.1884160927836016
+      ],
+      [
+        -0.19172396381698487
+      ],
+      [
+        -0.9631932815787624
+      ]
+    ],
+    "essential_inliers": 10,
+    "triangulation_candidate_count": 10,
+    "point_cloud": "points_02_calibrated_chessboard_10_vs_calibrated_chessboard_11.ply",
+    "triangulation_npz": "points\p02_c10_vs_c11.npz",
+    "scale": 0.1954056113791309,
+    "triangulation_metric_npz": "points\p02_c10_vs_c11.npz",
+    "point_cloud_metric": "points_02_calibrated_chessboard_10_vs_calibrated_chessboard_11_metric.ply",
+    "dimensions_m": {
+      "dx_m": 8.72974967956543,
+      "dy_m": 4.936062812805176,
+      "dz_m": 7.886624336242676
+    },
+    "match_vis": "match_visuals\\matches_02_calibrated_chessboard_10_vs_calibrated_chessboard_11.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_11.jpg",
+    "img2": "calibrated_chessboard_12.jpg",
+    "matches": 129,
+    "homography_inliers": 80,
+    "E_found": true,
+    "R": [
+      [
+        0.9999997771123389,
+        -0.0004125061150932266,
+        0.000524989502401485
+      ],
+      [
+        0.0004128873046540301,
+        0.9999996510869372,
+        -0.0007261887340319767
+      ],
+      [
+        -0.0005246897619323176,
+        0.0007264053336740808,
+        0.9999995985178919
+      ]
+    ],
+    "t": [
+      [
+        0.3490601612527972
+      ],
+      [
+        -0.03749643912037071
+      ],
+      [
+        0.9363498389381308
+      ]
+    ],
+    "essential_inliers": 33,
+    "triangulation_candidate_count": 33,
+    "point_cloud": "points_03_calibrated_chessboard_11_vs_calibrated_chessboard_12.ply",
+    "triangulation_npz": "points\p03_c11_vs_c12.npz",
+    "scale": 0.1907191442163024,
+    "triangulation_metric_npz": "points\p03_c11_vs_c12.npz",
+    "point_cloud_metric": "points_03_calibrated_chessboard_11_vs_calibrated_chessboard_12_metric.ply",
+    "dimensions_m": {
+      "dx_m": 2.095116138458252,
+      "dy_m": 4.314032554626465,
+      "dz_m": 6.124960899353027
+    },
+    "match_vis": "match_visuals\\matches_03_calibrated_chessboard_11_vs_calibrated_chessboard_12.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_12.jpg",
+    "img2": "calibrated_chessboard_13.jpg",
+    "matches": 211,
+    "homography_inliers": 142,
+    "E_found": true,
+    "R": [
+      [
+        0.9998320734325047,
+        -0.015781443384189773,
+        0.009315094222300866
+      ],
+      [
+        0.015993122277890938,
+        0.9996051118450873,
+        -0.02310498675556355
+      ],
+      [
+        -0.008946785761555318,
+        0.023250084255372894,
+        0.9996896461435693
+      ]
+    ],
+    "t": [
+      [
+        -0.01797883336365431
+      ],
+      [
+        0.8905434536204678
+      ],
+      [
+        -0.45454275790580095
+      ]
+    ],
+    "essential_inliers": 126,
+    "triangulation_candidate_count": 126,
+    "point_cloud": "points_04_calibrated_chessboard_12_vs_calibrated_chessboard_13.ply",
+    "triangulation_npz": "points\p04_c12_vs_c13.npz",
+    "scale": 0.1763832654711906,
+    "triangulation_metric_npz": "points\p04_c12_vs_c13.npz",
+    "point_cloud_metric": "points_04_calibrated_chessboard_12_vs_calibrated_chessboard_13_metric.ply",
+    "dimensions_m": {
+      "dx_m": 8.031808853149414,
+      "dy_m": 7.114800453186035,
+      "dz_m": 7.349611282348633
+    },
+    "match_vis": "match_visuals\\matches_04_calibrated_chessboard_12_vs_calibrated_chessboard_13.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_13.jpg",
+    "img2": "calibrated_chessboard_14.jpg",
+    "matches": 84,
+    "homography_inliers": 52,
+    "E_found": true,
+    "R": [
+      [
+        0.9999984779280909,
+        -0.001685868224440626,
+        -0.0004494327876765625
+      ],
+      [
+        0.001687014673030715,
+        0.9999952929510192,
+        0.0025628221354984104
+      ],
+      [
+        0.0004451100917713391,
+        -0.0025635764344063006,
+        0.9999966149707065
+      ]
+    ],
+    "t": [
+      [
+        -0.4132233355222448
+      ],
+      [
+        -0.29604804169074916
+      ],
+      [
+        -0.86116318545961
+      ]
+    ],
+    "essential_inliers": 17,
+    "triangulation_candidate_count": 17,
+    "point_cloud": "points_05_calibrated_chessboard_13_vs_calibrated_chessboard_14.ply",
+    "triangulation_npz": "points\p05_c13_vs_c14.npz",
+    "scale": 0.09353841895403278,
+    "triangulation_metric_npz": "points\p05_c13_vs_c14.npz",
+    "point_cloud_metric": "points_05_calibrated_chessboard_13_vs_calibrated_chessboard_14_metric.ply",
+    "dimensions_m": {
+      "dx_m": 0.465851366519928,
+      "dy_m": 0.7677475214004517,
+      "dz_m": 1.4011898040771484
+    },
+    "match_vis": "match_visuals\\matches_05_calibrated_chessboard_13_vs_calibrated_chessboard_14.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_14.jpg",
+    "img2": "calibrated_chessboard_15.jpg",
+    "matches": 163,
+    "homography_inliers": 73,
+    "E_found": true,
+    "R": [
+      [
+        0.9999999464145697,
+        0.0003260572419931107,
+        -2.9283669449986505e-05
+      ],
+      [
+        -0.00032606996675320354,
+        0.9999998519716443,
+        -0.0004355858883467456
+      ],
+      [
+        2.9141639181606838e-05,
+        0.000435595413530665,
+        0.9999999047036954
+      ]
+    ],
+    "t": [
+      [
+        0.5690219615353429
+      ],
+      [
+        0.155566797462525
+      ],
+      [
+        -0.8074732062537582
+      ]
+    ],
+    "essential_inliers": 54,
+    "triangulation_candidate_count": 54,
+    "point_cloud": "points_06_calibrated_chessboard_14_vs_calibrated_chessboard_15.ply",
+    "triangulation_npz": "points\p06_c14_vs_c15.npz",
+    "scale": 0.027766194769641414,
+    "triangulation_metric_npz": "points\p06_c14_vs_c15.npz",
+    "point_cloud_metric": "points_06_calibrated_chessboard_14_vs_calibrated_chessboard_15_metric.ply",
+    "dimensions_m": {
+      "dx_m": 1.170609474182129,
+      "dy_m": 0.5239944458007812,
+      "dz_m": 1.202315092086792
+    },
+    "match_vis": "match_visuals\\matches_06_calibrated_chessboard_14_vs_calibrated_chessboard_15.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_15.jpg",
+    "img2": "calibrated_chessboard_16.jpg",
+    "matches": 116,
+    "homography_inliers": 73,
+    "E_found": true,
+    "R": [
+      [
+        0.9999915369236563,
+        0.00402465925828923,
+        -0.0008533457205249784
+      ],
+      [
+        -0.004022186221586014,
+        0.9999877630871502,
+        0.0028802246364570475
+      ],
+      [
+        0.000864927200956711,
+        -0.002876767945496704,
+        0.9999954880433836
+      ]
+    ],
+    "t": [
+      [
+        0.5504231449900133
+      ],
+      [
+        0.04784000537896392
+      ],
+      [
+        -0.8335140642752488
+      ]
+    ],
+    "essential_inliers": 28,
+    "triangulation_candidate_count": 28,
+    "point_cloud": "points_07_calibrated_chessboard_15_vs_calibrated_chessboard_16.ply",
+    "triangulation_npz": "points\p07_c15_vs_c16.npz",
+    "scale": 0.05340968942986822,
+    "triangulation_metric_npz": "points\p07_c15_vs_c16.npz",
+    "point_cloud_metric": "points_07_calibrated_chessboard_15_vs_calibrated_chessboard_16_metric.ply",
+    "dimensions_m": {
+      "dx_m": 1.6203774213790894,
+      "dy_m": 0.9522784948348999,
+      "dz_m": 1.975473165512085
+    },
+    "match_vis": "match_visuals\\matches_07_calibrated_chessboard_15_vs_calibrated_chessboard_16.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_16.jpg",
+    "img2": "calibrated_chessboard_17.jpg",
+    "matches": 98,
+    "homography_inliers": 76,
+    "E_found": true,
+    "R": [
+      [
+        0.9999999983155964,
+        -5.625180862683932e-05,
+        1.4301816227912933e-05
+      ],
+      [
+        5.6251364257908776e-05,
+        0.999999997935241,
+        3.106931985108474e-05
+      ],
+      [
+        -1.430356390391685e-05,
+        -3.1068515302268285e-05,
+        0.9999999994150777
+      ]
+    ],
+    "t": [
+      [
+        -0.5514580549836725
+      ],
+      [
+        -0.46552338752187544
+      ],
+      [
+        -0.692229722898246
+      ]
+    ],
+    "essential_inliers": 16,
+    "triangulation_candidate_count": 16,
+    "point_cloud": "points_08_calibrated_chessboard_16_vs_calibrated_chessboard_17.ply",
+    "triangulation_npz": "points\p08_c16_vs_c17.npz",
+    "scale": 0.1766753608536653,
+    "triangulation_metric_npz": "points\p08_c16_vs_c17.npz",
+    "point_cloud_metric": "points_08_calibrated_chessboard_16_vs_calibrated_chessboard_17_metric.ply",
+    "dimensions_m": {
+      "dx_m": 5.400294780731201,
+      "dy_m": 4.599592208862305,
+      "dz_m": 6.707920074462891
+    },
+    "match_vis": "match_visuals\\matches_08_calibrated_chessboard_16_vs_calibrated_chessboard_17.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_17.jpg",
+    "img2": "calibrated_chessboard_18.jpg",
+    "matches": 99,
+    "homography_inliers": 80,
+    "E_found": true,
+    "R": [
+      [
+        0.999999885529982,
+        -0.0004642898454818578,
+        -0.00011565017325820826
+      ],
+      [
+        0.0004642893902198908,
+        0.999999892209821,
+        -3.9633600605881725e-06
+      ],
+      [
+        0.00011565200094010297,
+        3.909664458456863e-06,
+        0.9999999933046646
+      ]
+    ],
+    "t": [
+      [
+        0.34441714117824057
+      ],
+      [
+        0.5247837288259639
+      ],
+      [
+        0.7784464469840717
+      ]
+    ],
+    "essential_inliers": 12,
+    "triangulation_candidate_count": 12,
+    "point_cloud": "points_09_calibrated_chessboard_17_vs_calibrated_chessboard_18.ply",
+    "triangulation_npz": "points\p09_c17_vs_c18.npz",
+    "scale": 0.12201567394116446,
+    "triangulation_metric_npz": "points\p09_c17_vs_c18.npz",
+    "point_cloud_metric": "points_09_calibrated_chessboard_17_vs_calibrated_chessboard_18_metric.ply",
+    "dimensions_m": {
+      "dx_m": 4.477842807769775,
+      "dy_m": 3.6126763820648193,
+      "dz_m": 5.494447708129883
+    },
+    "match_vis": "match_visuals\\matches_09_calibrated_chessboard_17_vs_calibrated_chessboard_18.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_18.jpg",
+    "img2": "calibrated_chessboard_19.jpg",
+    "matches": 187,
+    "homography_inliers": 105,
+    "E_found": true,
+    "R": [
+      [
+        0.9999999090593311,
+        0.00038612690543025213,
+        -0.00018107275219919616
+      ],
+      [
+        -0.0003861090215325977,
+        0.999999920580085,
+        9.879092466849593e-05
+      ],
+      [
+        0.00018111088365252437,
+        -9.872100186077148e-05,
+        0.9999999787265057
+      ]
+    ],
+    "t": [
+      [
+        0.4989944145865916
+      ],
+      [
+        0.0818927719758829
+      ],
+      [
+        -0.8627271573965263
+      ]
+    ],
+    "essential_inliers": 37,
+    "triangulation_candidate_count": 37,
+    "point_cloud": "points_10_calibrated_chessboard_18_vs_calibrated_chessboard_19.ply",
+    "triangulation_npz": "points\p10_c18_vs_c19.npz",
+    "scale": 0.024332606389912356,
+    "triangulation_metric_npz": "points\p10_c18_vs_c19.npz",
+    "point_cloud_metric": "points_10_calibrated_chessboard_18_vs_calibrated_chessboard_19_metric.ply",
+    "dimensions_m": {
+      "dx_m": 0.3998914659023285,
+      "dy_m": 0.4533274471759796,
+      "dz_m": 1.0773630142211914
+    },
+    "match_vis": "match_visuals\\matches_10_calibrated_chessboard_18_vs_calibrated_chessboard_19.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_19.jpg",
+    "img2": "calibrated_chessboard_2.jpg",
+    "matches": 86,
+    "homography_inliers": 40,
+    "E_found": true,
+    "R": [
+      [
+        0.9999984471408632,
+        0.001422190170907669,
+        0.001040716570062574
+      ],
+      [
+        -0.0014195456246721492,
+        0.9999957731758011,
+        -0.0025374240385508152
+      ],
+      [
+        -0.0010443208706638115,
+        0.002535942753634961,
+        0.9999962391870629
+      ]
+    ],
+    "t": [
+      [
+        -0.011517735829160151
+      ],
+      [
+        -0.012441789906481749
+      ],
+      [
+        -0.9998562614822657
+      ]
+    ],
+    "essential_inliers": 14,
+    "triangulation_candidate_count": 14,
+    "point_cloud": "points_11_calibrated_chessboard_19_vs_calibrated_chessboard_2.ply",
+    "triangulation_npz": "points\p11_c19_vs_c2.npz",
+    "scale": 0.17404641454880085,
+    "triangulation_metric_npz": "points\p11_c19_vs_c2.npz",
+    "point_cloud_metric": "points_11_calibrated_chessboard_19_vs_calibrated_chessboard_2_metric.ply",
+    "dimensions_m": {
+      "dx_m": 1.3849265575408936,
+      "dy_m": 1.5413204431533813,
+      "dz_m": 2.3987934589385986
+    },
+    "match_vis": "match_visuals\\matches_11_calibrated_chessboard_19_vs_calibrated_chessboard_2.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_2.jpg",
+    "img2": "calibrated_chessboard_20.jpg",
+    "matches": 63,
+    "homography_inliers": 23,
+    "E_found": true,
+    "R": [
+      [
+        0.9999998008916793,
+        0.0005027535959865881,
+        -0.000381386186874888
+      ],
+      [
+        -0.0005012621245869819,
+        0.9999922665050667,
+        0.003900726386460329
+      ],
+      [
+        0.0003833443416446092,
+        -0.003900534435342884,
+        0.9999923194096214
+      ]
+    ],
+    "t": [
+      [
+        0.4443829094217395
+      ],
+      [
+        -0.3023926613379777
+      ],
+      [
+        -0.8432570830908004
+      ]
+    ],
+    "essential_inliers": 18,
+    "triangulation_candidate_count": 18,
+    "point_cloud": "points_12_calibrated_chessboard_2_vs_calibrated_chessboard_20.ply",
+    "triangulation_npz": "points\p12_c2_vs_c20.npz",
+    "scale": 0.09869176030126035,
+    "triangulation_metric_npz": "points\p12_c2_vs_c20.npz",
+    "point_cloud_metric": "points_12_calibrated_chessboard_2_vs_calibrated_chessboard_20_metric.ply",
+    "dimensions_m": {
+      "dx_m": 0.2193029522895813,
+      "dy_m": 0.23072558641433716,
+      "dz_m": 1.1071357727050781
+    },
+    "match_vis": "match_visuals\\matches_12_calibrated_chessboard_2_vs_calibrated_chessboard_20.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_20.jpg",
+    "img2": "calibrated_chessboard_21.jpg",
+    "matches": 116,
+    "homography_inliers": 94,
+    "E_found": true,
+    "R": [
+      [
+        0.9999973531470929,
+        0.0007047399347477196,
+        0.0021902147001870223
+      ],
+      [
+        -0.0007045480159112577,
+        0.9999997478990971,
+        -8.839590283689271e-05
+      ],
+      [
+        -0.002190276444154704,
+        8.685255744474412e-05,
+        0.9999975975699797
+      ]
+    ],
+    "t": [
+      [
+        0.9950625508094566
+      ],
+      [
+        0.08721875124247137
+      ],
+      [
+        0.04736464301862493
+      ]
+    ],
+    "essential_inliers": 10,
+    "triangulation_candidate_count": 10,
+    "point_cloud": "points_13_calibrated_chessboard_20_vs_calibrated_chessboard_21.ply",
+    "triangulation_npz": "points\p13_c20_vs_c21.npz",
+    "scale": 0.22894451171863386,
+    "triangulation_metric_npz": "points\p13_c20_vs_c21.npz",
+    "point_cloud_metric": "points_13_calibrated_chessboard_20_vs_calibrated_chessboard_21_metric.ply",
+    "dimensions_m": {
+      "dx_m": 0.15089991688728333,
+      "dy_m": 0.13066665828227997,
+      "dz_m": 0.7610561847686768
+    },
+    "match_vis": "match_visuals\\matches_13_calibrated_chessboard_20_vs_calibrated_chessboard_21.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_21.jpg",
+    "img2": "calibrated_chessboard_3.jpg",
+    "matches": 38,
+    "homography_inliers": 9,
+    "E_found": true,
+    "R": [
+      [
+        0.9904564906336425,
+        -0.04393884424000402,
+        -0.13063429154912545
+      ],
+      [
+        0.028173780808448706,
+        0.9923537926098345,
+        -0.12016733486199555
+      ],
+      [
+        0.13491544847291095,
+        0.11534005488003785,
+        0.9841211782619168
+      ]
+    ],
+    "t": [
+      [
+        -0.1170910897464932
+      ],
+      [
+        -0.34001186323039917
+      ],
+      [
+        -0.9331032148506246
+      ]
+    ],
+    "essential_inliers": 16,
+    "triangulation_candidate_count": 16,
+    "point_cloud": "points_14_calibrated_chessboard_21_vs_calibrated_chessboard_3.ply",
+    "triangulation_npz": "points\p14_c21_vs_c3.npz",
+    "scale": 0.129801980931268,
+    "triangulation_metric_npz": "points\p14_c21_vs_c3.npz",
+    "point_cloud_metric": "points_14_calibrated_chessboard_21_vs_calibrated_chessboard_3_metric.ply",
+    "dimensions_m": {
+      "dx_m": 2.4726805686950684,
+      "dy_m": 0.6387488842010498,
+      "dz_m": 4.983700275421143
+    },
+    "match_vis": "match_visuals\\matches_14_calibrated_chessboard_21_vs_calibrated_chessboard_3.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_3.jpg",
+    "img2": "calibrated_chessboard_4.jpg",
+    "matches": 15,
+    "homography_inliers": 7,
+    "E_found": true,
+    "R": [
+      [
+        0.2509956471462677,
+        -0.963827553610308,
+        -0.08965284164595902
+      ],
+      [
+        0.9678445683274233,
+        0.2514752509035479,
+        0.006090134817954063
+      ],
+      [
+        0.016675631104387856,
+        -0.08829861315200138,
+        0.995954455907851
+      ]
+    ],
+    "t": [
+      [
+        0.1660185181652951
+      ],
+      [
+        0.19670638086209152
+      ],
+      [
+        -0.9663045334439538
+      ]
+    ],
+    "essential_inliers": 6,
+    "triangulation_candidate_count": 6,
+    "point_cloud": "points_15_calibrated_chessboard_3_vs_calibrated_chessboard_4.ply",
+    "triangulation_npz": "points\p15_c3_vs_c4.npz",
+    "scale": 0.14189126248431502,
+    "triangulation_metric_npz": "points\p15_c3_vs_c4.npz",
+    "point_cloud_metric": "points_15_calibrated_chessboard_3_vs_calibrated_chessboard_4_metric.ply",
+    "dimensions_m": {
+      "dx_m": 0.11765793710947037,
+      "dy_m": 0.24708199501037598,
+      "dz_m": 1.3973722457885742
+    },
+    "match_vis": "match_visuals\\matches_15_calibrated_chessboard_3_vs_calibrated_chessboard_4.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_4.jpg",
+    "img2": "calibrated_chessboard_5.jpg",
+    "matches": 67,
+    "homography_inliers": 41,
+    "E_found": true,
+    "R": [
+      [
+        0.9999685365198961,
+        0.007254585641010086,
+        0.0032088872579934813
+      ],
+      [
+        -0.007252580119339935,
+        0.9999734973236946,
+        -0.0006361853755650904
+      ],
+      [
+        -0.0032134174751838607,
+        0.0006128926470268525,
+        0.9999946491410507
+      ]
+    ],
+    "t": [
+      [
+        0.22163183287326274
+      ],
+      [
+        0.6776471152029551
+      ],
+      [
+        0.7011944936423496
+      ]
+    ],
+    "essential_inliers": 31,
+    "triangulation_candidate_count": 31,
+    "point_cloud": "points_16_calibrated_chessboard_4_vs_calibrated_chessboard_5.ply",
+    "triangulation_npz": "points\p16_c4_vs_c5.npz",
+    "scale": 0.10644353934759897,
+    "triangulation_metric_npz": "points\p16_c4_vs_c5.npz",
+    "point_cloud_metric": "points_16_calibrated_chessboard_4_vs_calibrated_chessboard_5_metric.ply",
+    "dimensions_m": {
+      "dx_m": 3.7673702239990234,
+      "dy_m": 2.878298044204712,
+      "dz_m": 4.529542446136475
+    },
+    "match_vis": "match_visuals\\matches_16_calibrated_chessboard_4_vs_calibrated_chessboard_5.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_5.jpg",
+    "img2": "calibrated_chessboard_6.jpg",
+    "matches": 66,
+    "homography_inliers": 46,
+    "E_found": true,
+    "R": [
+      [
+        0.999997355022739,
+        0.001184295284678864,
+        0.001971647079101524
+      ],
+      [
+        -0.0011855772908200835,
+        0.9999990864860382,
+        0.0006491791560134406
+      ],
+      [
+        -0.001970876458161075,
+        -0.0006515149789513234,
+        0.9999978455847889
+      ]
+    ],
+    "t": [
+      [
+        0.9276858473092204
+      ],
+      [
+        0.015154238180821645
+      ],
+      [
+        -0.37305404134968495
+      ]
+    ],
+    "essential_inliers": 9,
+    "triangulation_candidate_count": 9,
+    "point_cloud": "points_17_calibrated_chessboard_5_vs_calibrated_chessboard_6.ply",
+    "triangulation_npz": "points\p17_c5_vs_c6.npz",
+    "scale": 0.10157637016825519,
+    "triangulation_metric_npz": "points\p17_c5_vs_c6.npz",
+    "point_cloud_metric": "points_17_calibrated_chessboard_5_vs_calibrated_chessboard_6_metric.ply",
+    "dimensions_m": {
+      "dx_m": 0.15768291056156158,
+      "dy_m": 0.5528777241706848,
+      "dz_m": 1.8766555786132812
+    },
+    "match_vis": "match_visuals\\matches_17_calibrated_chessboard_5_vs_calibrated_chessboard_6.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_6.jpg",
+    "img2": "calibrated_chessboard_7.jpg",
+    "matches": 127,
+    "homography_inliers": 85,
+    "E_found": true,
+    "R": [
+      [
+        0.9999996438668459,
+        0.0002478751885126168,
+        -0.0008067366807631982
+      ],
+      [
+        -0.0002476666188821197,
+        0.9999999358872825,
+        0.0002586245867281789
+      ],
+      [
+        0.0008068007356593632,
+        -0.0002584246928774431,
+        0.9999996411445612
+      ]
+    ],
+    "t": [
+      [
+        -0.44895870397800586
+      ],
+      [
+        -0.07737461421579528
+      ],
+      [
+        -0.8901961869146297
+      ]
+    ],
+    "essential_inliers": 25,
+    "triangulation_candidate_count": 25,
+    "point_cloud": "points_18_calibrated_chessboard_6_vs_calibrated_chessboard_7.ply",
+    "triangulation_npz": "points\p18_c6_vs_c7.npz",
+    "scale": 0.05770826659585594,
+    "triangulation_metric_npz": "points\p18_c6_vs_c7.npz",
+    "point_cloud_metric": "points_18_calibrated_chessboard_6_vs_calibrated_chessboard_7_metric.ply",
+    "dimensions_m": {
+      "dx_m": 0.6471859812736511,
+      "dy_m": 0.38284701108932495,
+      "dz_m": 0.682369589805603
+    },
+    "match_vis": "match_visuals\\matches_18_calibrated_chessboard_6_vs_calibrated_chessboard_7.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_7.jpg",
+    "img2": "calibrated_chessboard_8.jpg",
+    "matches": 58,
+    "homography_inliers": 26,
+    "E_found": true,
+    "R": [
+      [
+        0.9999992190251434,
+        -0.0010672374719303407,
+        -0.0006503485851285795
+      ],
+      [
+        0.001067969942935773,
+        0.9999987946887605,
+        0.0011269699319527149
+      ],
+      [
+        0.0006491450567153723,
+        -0.0011276636045586264,
+        0.9999991534923867
+      ]
+    ],
+    "t": [
+      [
+        0.39659721125699793
+      ],
+      [
+        0.28924833884322
+      ],
+      [
+        0.8712324893503514
+      ]
+    ],
+    "essential_inliers": 12,
+    "triangulation_candidate_count": 12,
+    "point_cloud": "points_19_calibrated_chessboard_7_vs_calibrated_chessboard_8.ply",
+    "triangulation_npz": "points\p19_c7_vs_c8.npz",
+    "scale": 0.14345158216545886,
+    "triangulation_metric_npz": "points\p19_c7_vs_c8.npz",
+    "point_cloud_metric": "points_19_calibrated_chessboard_7_vs_calibrated_chessboard_8_metric.ply",
+    "dimensions_m": {
+      "dx_m": 1.3292709589004517,
+      "dy_m": 1.4557993412017822,
+      "dz_m": 2.4719231128692627
+    },
+    "match_vis": "match_visuals\\matches_19_calibrated_chessboard_7_vs_calibrated_chessboard_8.jpg"
+  },
+  {
+    "img1": "calibrated_chessboard_8.jpg",
+    "img2": "calibrated_chessboard_9.jpg",
+    "matches": 30,
+    "homography_inliers": 19,
+    "E_found": true,
+    "R": [
+      [
+        0.9999997442626077,
+        0.0007018797965030119,
+        -0.00013725694874341943
+      ],
+      [
+        -0.0007020059036386486,
+        0.999999329577045,
+        -0.0009208871661465223
+      ],
+      [
+        0.00013661050462629443,
+        0.0009209832858296796,
+        0.9999995665635847
+      ]
+    ],
+    "t": [
+      [
+        0.21032716505370194
+      ],
+      [
+        0.24836096682234293
+      ],
+      [
+        -0.9455576734390895
+      ]
+    ],
+    "essential_inliers": 6,
+    "triangulation_candidate_count": 6,
+    "point_cloud": "points_20_calibrated_chessboard_8_vs_calibrated_chessboard_9.ply",
+    "triangulation_npz": "points\p20_c8_vs_c9.npz",
+    "scale": 0.1788959842783758,
+    "triangulation_metric_npz": "points\p20_c8_vs_c9.npz",
+    "point_cloud_metric": "points_20_calibrated_chessboard_8_vs_calibrated_chessboard_9_metric.ply",
+    "dimensions_m": {
+      "dx_m": 0.3872238099575043,
+      "dy_m": 0.4213060438632965,
+      "dz_m": 1.7961204051971436
+    },
+    "match_vis": "match_visuals\\matches_20_calibrated_chessboard_8_vs_calibrated_chessboard_9.jpg"
+  }
+]

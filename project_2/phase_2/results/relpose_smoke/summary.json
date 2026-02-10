@@ -1,0 +1,8 @@
+{
+  "num_matches": 208,
+  "fundamental_inliers": 139,
+  "pose_inliers": 80,
+  "reproj_mean_img1": 2.9901820759258557,
+  "reproj_mean_img2": 2.8487700477729434,
+  "metric_t_norm_m": 0.20174899891505663
+}
